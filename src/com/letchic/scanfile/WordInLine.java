@@ -29,7 +29,7 @@ public class WordInLine {
                 }
                 lineno++;
             }
-
+            breader.close();
             words.forEach((k, v) -> {
                 System.out.println("word: " + k);
                 String sep = "";
